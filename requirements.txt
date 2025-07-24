@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+streamlit
+matplotlib
+
+
+
+pip install -r requirements.txt
