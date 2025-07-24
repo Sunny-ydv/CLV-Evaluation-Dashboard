@@ -1,29 +1,35 @@
 # 📊 CLV Evaluation Dashboard
 
-Welcome to the **Customer Lifetime Value (CLV) Evaluation Dashboard** built with **Streamlit**, **scikit-learn**, and **pandas**.
+This project is a **Streamlit dashboard** for evaluating **Customer Lifetime Value (CLV)** segments using a **Random Forest Classifier** on a sample customer dataset.
 
-This dashboard:
-- Loads customer data
-- Predicts CLV segments using a Random Forest Classifier
-- Shows feature importance
-- Displays a confusion matrix & classification report
-- Provides business insights for action
+It shows:
+- Data cleaning
+- Model training & evaluation
+- Confusion matrix & classification report
+- Feature importance ranking
+- Simple business insights
+
+---
+
+## 📂 Project Files
+
+| File | Description |
+|------|--------------|
+| `CLV Evaluation.py` | Main Streamlit app script |
+| `sample_customer_data.csv` | Sample customer dataset |
+| `requirements.txt` | Python dependencies |
 
 ---
 
 ## 🚀 How to Run
 
-1️⃣ **Clone this repository**
-
 ```bash
+# 1️⃣ Clone this repo
 git clone https://github.com/Sunny-ydv/CLV-Evaluation-Dashboard.git
 cd CLV-Evaluation-Dashboard
 
-2️⃣ Install the requirements
-
+# 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-
-3️⃣ Run the app
-
-streamlit run app.py
+# 3️⃣ Launch Streamlit
+streamlit run "CLV Evaluation.py"
